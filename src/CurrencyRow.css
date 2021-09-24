@@ -1,0 +1,33 @@
+.input{
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-right: 10px;
+    width: 80px;
+   
+}
+.select{
+    padding-left: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: rgb(224, 72, 199);
+    width: 44px;
+    font-size: 10px;
+  
+
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+    .input{
+        width: 140px ;
+    }
+}

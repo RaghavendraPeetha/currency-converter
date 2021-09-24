@@ -1,0 +1,124 @@
+.app__cnr{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image: radial-gradient(#e3cdb1,#5fb37b,#cee9eb);
+    min-height: 100vh;
+    padding: 20px;
+}
+.header__cnr{
+    display: flex;
+ border-radius: 10px;
+ flex-direction: column;
+ padding: 20px;
+ width: 180px;
+ box-shadow: 4px 16px 39px rgba(0,0,0,0.7);
+  
+   background-image: linear-gradient(to right,#e3cdb1,#5fb37b,#cee9eb);
+ 
+}
+
+
+
+
+
+
+ 
+
+.heading{
+    color: rgb(124, 58, 124);
+    font-family: "Sans Serif";
+    text-align: center;
+    font-size: 16px;
+}
+
+.login__page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 4px 16px 39px rgba(0,0,0,0.7);
+    background-image: linear-gradient(to bottom,#e3cdb1,#5fb37b,#cee9eb);
+}
+.login__page:hover{
+    background: transparent;
+}
+.login__page>h1{
+    color: rgb(217, 238, 24);
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: "Bree Serif";
+}
+.login__page>p{
+    color: rgb(81, 23, 240);
+    font-size: 12px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   align-items: center;
+}
+
+
+
+
+   
+
+
+@media screen  and (min-width:650px) {
+    .login__page>h1{
+        font-size: 30px;
+    }
+    .login__page>p{
+        font-size: 18px;
+    }
+    .header__cnr{
+        width: 500px;
+      
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+    }
+   
+   
+    
+}
+
+.login__window{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.welcome{
+    color: rgb(226, 243, 72);
+    font-style: oblique;
+    font-family: "monoton";
+    font-size: 13px;
+}
+@media screen  and (min-width:768px){
+    .welcome{
+        font-size: 19px;
+     }
+     .login__page{
+        width: 500px;
+       }
+        .heading{
+        font-size: 30px;
+        }
+}
+.equals{
+    font-size: 26px;
+    font-weight: bolder;
+    color: rgb(153, 19, 19);
+    text-align: center;
+}
